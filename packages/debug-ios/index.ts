@@ -1,6 +1,10 @@
-declare var FLEXManager;
+declare var DebugTools: any;
 export class NativeScriptDebugIOS {
 	static show() {
-		FLEXManager.sharedManager.showExplorer();
+		DebugTools.show();
+	}
+
+	static toggle() {
+		DebugTools.toggle();
 	}
 }
