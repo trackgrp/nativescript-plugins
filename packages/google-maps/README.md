@@ -99,6 +99,8 @@ npm install @nativescript/google-maps
 ```
 To use the plugin in the different NativeScript flavors, modify the `main.ts` to import and then register it.
 
+> Track Group fork note: for iOS, this fork expects the Google Maps SDK to be supplied by the host app through NativeScript `ios.SPMPackages` rather than the plugin's CocoaPods Podfile.
+
 ## Use @nativescript/google-maps with core
 1. Register the plugin namespace with Page's `xmlns` attribute providing your prefix( `map`, for example).
 
